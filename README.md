@@ -8,8 +8,8 @@ Search SPM packages from the command line.
 curl -L https://github.com/theolampert/SPMSearch/releases/download/0.1.0/spmsearch > spmsearch
 chmod +x spmsearch
 ./spmsearch
+cp ./spmsearch /usr/local/bin
 ```
-Copy the file to somewhere in your PATH.
 
 #### Usage:
 ```
