@@ -13,7 +13,7 @@ cp ./spmsearch /usr/local/bin
 
 #### Usage:
 ```
-USAGE: spm-search <query> [--verbose <verbose>]
+USAGE: spmsearch <query> [--verbose <verbose>]
 
 ARGUMENTS:
   <query>                 The package search query.
