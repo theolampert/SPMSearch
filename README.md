@@ -19,9 +19,11 @@ cp ./spmsearch /usr/local/bin
 ```
 
 ##### From source:
+```
 git clone https://github.com/theolampert/SPMSearch
 cd SPMSearch && swift build -c release
 cp .build/release/spmsearch /usr/local/bin
+```
 
 #### Usage:
 ```
