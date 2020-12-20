@@ -4,7 +4,7 @@ Search SPM packages from the command line using the [Swift Package Index](https:
 
 #### Installing:
 
-#####With Hmoebrew:
+##### With Hmoebrew:
 ```
 brew install theolampert/formulae/spmsearch
 ```
