@@ -1,6 +1,6 @@
 # SPMSearch
 
-Search SPM packages from the command line.
+Search SPM packages from the command line using the [Swift Package Index](https://swiftpackageindex.com/).
 
 #### Installing:
 
