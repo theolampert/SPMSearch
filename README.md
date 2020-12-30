@@ -12,7 +12,7 @@ brew install theolampert/formulae/spmsearch
 ##### From release tab:
 
 ```
-curl -L https://github.com/theolampert/SPMSearch/releases/download/0.1.0/spmsearch > spmsearch
+curl -L https://github.com/theolampert/SPMSearch/releases/download/0.2.0/spmsearch > spmsearch
 chmod +x spmsearch
 ./spmsearch
 cp ./spmsearch /usr/local/bin
@@ -27,13 +27,13 @@ cp .build/release/spmsearch /usr/local/bin
 
 #### Usage:
 ```
-USAGE: spmsearch <query> [--verbose <verbose>]
+USAGE: spm-search <query> [--verbose]
 
 ARGUMENTS:
-  <query>                 The package search query.
+  <query>                 The package search query. 
 
 OPTIONS:
-  -v, --verbose <verbose> Show package summaries. (default: false)
+  -v, --verbose           Show package summaries. 
   -h, --help              Show help information.
 ```
 
