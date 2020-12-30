@@ -24,7 +24,7 @@ struct SPMSearch: ParsableCommand {
     @Argument(help: "The package search query.")
     var query: String
 
-    @Option(name: .shortAndLong, help: "Show package summaries.")
+    @Flag(name: .shortAndLong, help: "Show package summaries.")
     var verbose: Bool = false
 
     private func printPackageList(packageList: PackageList) -> Void {
